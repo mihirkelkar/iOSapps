@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07B1E2821971EE2D0034445B"
-               BuildableName = "location.app"
-               BlueprintName = "location"
-               ReferencedContainer = "container:location.xcodeproj">
+               BlueprintIdentifier = "0706084A1974CC8E00044A9F"
+               BuildableName = "Swift-tac-toe.app"
+               BlueprintName = "Swift-tac-toe"
+               ReferencedContainer = "container:Swift-tac-toe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07B1E2971971EE2D0034445B"
-               BuildableName = "locationTests.xctest"
-               BlueprintName = "locationTests"
-               ReferencedContainer = "container:location.xcodeproj">
+               BlueprintIdentifier = "0706085F1974CC8E00044A9F"
+               BuildableName = "Swift-tac-toeTests.xctest"
+               BlueprintName = "Swift-tac-toeTests"
+               ReferencedContainer = "container:Swift-tac-toe.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07B1E2821971EE2D0034445B"
-            BuildableName = "location.app"
-            BlueprintName = "location"
-            ReferencedContainer = "container:location.xcodeproj">
+            BlueprintIdentifier = "0706084A1974CC8E00044A9F"
+            BuildableName = "Swift-tac-toe.app"
+            BlueprintName = "Swift-tac-toe"
+            ReferencedContainer = "container:Swift-tac-toe.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07B1E2821971EE2D0034445B"
-            BuildableName = "location.app"
-            BlueprintName = "location"
-            ReferencedContainer = "container:location.xcodeproj">
+            BlueprintIdentifier = "0706084A1974CC8E00044A9F"
+            BuildableName = "Swift-tac-toe.app"
+            BlueprintName = "Swift-tac-toe"
+            ReferencedContainer = "container:Swift-tac-toe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07B1E2821971EE2D0034445B"
-            BuildableName = "location.app"
-            BlueprintName = "location"
-            ReferencedContainer = "container:location.xcodeproj">
+            BlueprintIdentifier = "0706084A1974CC8E00044A9F"
+            BuildableName = "Swift-tac-toe.app"
+            BlueprintName = "Swift-tac-toe"
+            ReferencedContainer = "container:Swift-tac-toe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

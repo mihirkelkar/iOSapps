@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>location.xcscheme</key>
+		<key>Swift-tac-toe.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>07B1E2821971EE2D0034445B</key>
+		<key>0706084A1974CC8E00044A9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>07B1E2971971EE2D0034445B</key>
+		<key>0706085F1974CC8E00044A9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
