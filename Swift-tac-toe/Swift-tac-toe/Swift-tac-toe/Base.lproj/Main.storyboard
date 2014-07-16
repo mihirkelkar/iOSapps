@@ -76,7 +76,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uF9-SQ-MzB">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uF9-SQ-MzB">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -84,8 +84,11 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="52" y="78" width="61" height="93"/>
                                 </variation>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="T3H-Qg-kDD"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VS1-lO-lvg">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VS1-lO-lvg">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -93,8 +96,11 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="121" y="78" width="65" height="94"/>
                                 </variation>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RcD-QY-f9l"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeG-mF-DJf">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeG-mF-DJf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -102,8 +108,11 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="194" y="72" width="70" height="100"/>
                                 </variation>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Kv0-Ob-4Re"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4j-p4-TwZ">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4j-p4-TwZ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -111,8 +120,11 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="43" y="187" width="70" height="94"/>
                                 </variation>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rPE-pk-hjJ"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ul-Ej-o1v">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ul-Ej-o1v">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -120,8 +132,11 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="121" y="187" width="65" height="94"/>
                                 </variation>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sLA-0l-l2i"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fke-yX-hNR">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fke-yX-hNR">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -129,8 +144,11 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="194" y="193" width="70" height="88"/>
                                 </variation>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iOr-iY-m8M"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qM8-QP-ja2">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qM8-QP-ja2">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -138,8 +156,11 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="52" y="297" width="61" height="94"/>
                                 </variation>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WRE-Bd-mbq"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKX-UH-ZR1">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKX-UH-ZR1">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -147,8 +168,11 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="121" y="297" width="65" height="94"/>
                                 </variation>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xnp-ch-pXq"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbA-4l-K6u">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbA-4l-K6u">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -156,6 +180,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="194" y="297" width="70" height="94"/>
                                 </variation>
+                                <connections>
+                                    <action selector="UIButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="P8j-1u-W7R"/>
+                                </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ia5-ZM-fTM">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -167,6 +194,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="130" y="219" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="reset:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LHd-67-yfm"/>
+                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTb-JY-mpy">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -248,8 +278,10 @@
                         <outlet property="image5" destination="DAm-ee-HXu" id="Ayg-Nq-IOM"/>
                         <outlet property="image6" destination="NaY-nb-IIh" id="BOb-YY-QXM"/>
                         <outlet property="image7" destination="dR4-cM-BMS" id="F28-iK-wCw"/>
-                        <outlet property="image8" destination="weS-xB-Dlw" id="yS8-rN-Yxt"/>
-                        <outlet property="image9" destination="weS-xB-Dlw" id="ocn-Nj-Psn"/>
+                        <outlet property="image8" destination="YSO-f0-GfC" id="kuD-x6-hwH"/>
+                        <outlet property="image9" destination="weS-xB-Dlw" id="fT0-O0-tPk"/>
+                        <outlet property="newWord" destination="CTb-JY-mpy" id="Cyf-Ay-ZDb"/>
+                        <outlet property="resetBtn" destination="Ia5-ZM-fTM" id="fBL-Fa-eno"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
