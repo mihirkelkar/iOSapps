@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072C67AB1978E23D0005F2D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C67AA1978E23D0005F2D7 /* AppDelegate.swift */; };
+		072C67AE1978E23D0005F2D7 /* heli_tutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 072C67AC1978E23D0005F2D7 /* heli_tutorial.xcdatamodeld */; };
+		072C67B01978E23D0005F2D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C67AF1978E23D0005F2D7 /* ViewController.swift */; };
+		072C67B31978E23D0005F2D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072C67B11978E23D0005F2D7 /* Main.storyboard */; };
+		072C67B51978E23D0005F2D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072C67B41978E23D0005F2D7 /* Images.xcassets */; };
+		072C67C11978E23D0005F2D7 /* heli_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C67C01978E23D0005F2D7 /* heli_tutorialTests.swift */; };
+		072C67CD1978E4E10005F2D7 /* obstacle.png in Resources */ = {isa = PBXBuildFile; fileRef = 072C67CA1978E4E10005F2D7 /* obstacle.png */; };
+		072C67CE1978E4E10005F2D7 /* birddown.png in Resources */ = {isa = PBXBuildFile; fileRef = 072C67CB1978E4E10005F2D7 /* birddown.png */; };
+		072C67D11978E5BD0005F2D7 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 072C67D01978E5BD0005F2D7 /* bird.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		072C67BB1978E23D0005F2D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072C679D1978E23D0005F2D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072C67A41978E23D0005F2D7;
+			remoteInfo = heli_tutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072C67A51978E23D0005F2D7 /* heli_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heli_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		072C67A91978E23D0005F2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072C67AA1978E23D0005F2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		072C67AD1978E23D0005F2D7 /* heli_tutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = heli_tutorial.xcdatamodel; sourceTree = "<group>"; };
+		072C67AF1978E23D0005F2D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		072C67B21978E23D0005F2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		072C67B41978E23D0005F2D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		072C67BA1978E23D0005F2D7 /* heli_tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heli_tutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		072C67BF1978E23D0005F2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072C67C01978E23D0005F2D7 /* heli_tutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heli_tutorialTests.swift; sourceTree = "<group>"; };
+		072C67CA1978E4E10005F2D7 /* obstacle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obstacle.png; sourceTree = "<group>"; };
+		072C67CB1978E4E10005F2D7 /* birddown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birddown.png; sourceTree = "<group>"; };
+		072C67D01978E5BD0005F2D7 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072C67A21978E23D0005F2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072C67B71978E23D0005F2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072C679C1978E23D0005F2D7 = {
+			isa = PBXGroup;
+			children = (
+				072C67A71978E23D0005F2D7 /* heli_tutorial */,
+				072C67BD1978E23D0005F2D7 /* heli_tutorialTests */,
+				072C67A61978E23D0005F2D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		072C67A61978E23D0005F2D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				072C67A51978E23D0005F2D7 /* heli_tutorial.app */,
+				072C67BA1978E23D0005F2D7 /* heli_tutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		072C67A71978E23D0005F2D7 /* heli_tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				072C67AA1978E23D0005F2D7 /* AppDelegate.swift */,
+				072C67AF1978E23D0005F2D7 /* ViewController.swift */,
+				072C67B11978E23D0005F2D7 /* Main.storyboard */,
+				072C67B41978E23D0005F2D7 /* Images.xcassets */,
+				072C67AC1978E23D0005F2D7 /* heli_tutorial.xcdatamodeld */,
+				072C67A81978E23D0005F2D7 /* Supporting Files */,
+			);
+			path = heli_tutorial;
+			sourceTree = "<group>";
+		};
+		072C67A81978E23D0005F2D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				072C67D01978E5BD0005F2D7 /* bird.png */,
+				072C67CA1978E4E10005F2D7 /* obstacle.png */,
+				072C67CB1978E4E10005F2D7 /* birddown.png */,
+				072C67A91978E23D0005F2D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		072C67BD1978E23D0005F2D7 /* heli_tutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				072C67C01978E23D0005F2D7 /* heli_tutorialTests.swift */,
+				072C67BE1978E23D0005F2D7 /* Supporting Files */,
+			);
+			path = heli_tutorialTests;
+			sourceTree = "<group>";
+		};
+		072C67BE1978E23D0005F2D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				072C67BF1978E23D0005F2D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		072C67A41978E23D0005F2D7 /* heli_tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072C67C41978E23D0005F2D7 /* Build configuration list for PBXNativeTarget "heli_tutorial" */;
+			buildPhases = (
+				072C67A11978E23D0005F2D7 /* Sources */,
+				072C67A21978E23D0005F2D7 /* Frameworks */,
+				072C67A31978E23D0005F2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = heli_tutorial;
+			productName = heli_tutorial;
+			productReference = 072C67A51978E23D0005F2D7 /* heli_tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		072C67B91978E23D0005F2D7 /* heli_tutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072C67C71978E23D0005F2D7 /* Build configuration list for PBXNativeTarget "heli_tutorialTests" */;
+			buildPhases = (
+				072C67B61978E23D0005F2D7 /* Sources */,
+				072C67B71978E23D0005F2D7 /* Frameworks */,
+				072C67B81978E23D0005F2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072C67BC1978E23D0005F2D7 /* PBXTargetDependency */,
+			);
+			name = heli_tutorialTests;
+			productName = heli_tutorialTests;
+			productReference = 072C67BA1978E23D0005F2D7 /* heli_tutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		072C679D1978E23D0005F2D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mihir Kelkar";
+				TargetAttributes = {
+					072C67A41978E23D0005F2D7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					072C67B91978E23D0005F2D7 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 072C67A41978E23D0005F2D7;
+					};
+				};
+			};
+			buildConfigurationList = 072C67A01978E23D0005F2D7 /* Build configuration list for PBXProject "heli_tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 072C679C1978E23D0005F2D7;
+			productRefGroup = 072C67A61978E23D0005F2D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				072C67A41978E23D0005F2D7 /* heli_tutorial */,
+				072C67B91978E23D0005F2D7 /* heli_tutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		072C67A31978E23D0005F2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C67CE1978E4E10005F2D7 /* birddown.png in Resources */,
+				072C67D11978E5BD0005F2D7 /* bird.png in Resources */,
+				072C67CD1978E4E10005F2D7 /* obstacle.png in Resources */,
+				072C67B31978E23D0005F2D7 /* Main.storyboard in Resources */,
+				072C67B51978E23D0005F2D7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072C67B81978E23D0005F2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		072C67A11978E23D0005F2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C67B01978E23D0005F2D7 /* ViewController.swift in Sources */,
+				072C67AB1978E23D0005F2D7 /* AppDelegate.swift in Sources */,
+				072C67AE1978E23D0005F2D7 /* heli_tutorial.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072C67B61978E23D0005F2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C67C11978E23D0005F2D7 /* heli_tutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		072C67BC1978E23D0005F2D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072C67A41978E23D0005F2D7 /* heli_tutorial */;
+			targetProxy = 072C67BB1978E23D0005F2D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		072C67B11978E23D0005F2D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072C67B21978E23D0005F2D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		072C67C21978E23D0005F2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		072C67C31978E23D0005F2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		072C67C51978E23D0005F2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = heli_tutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		072C67C61978E23D0005F2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = heli_tutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		072C67C81978E23D0005F2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/heli_tutorial.app/heli_tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = heli_tutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		072C67C91978E23D0005F2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/heli_tutorial.app/heli_tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = heli_tutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		072C67A01978E23D0005F2D7 /* Build configuration list for PBXProject "heli_tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072C67C21978E23D0005F2D7 /* Debug */,
+				072C67C31978E23D0005F2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072C67C41978E23D0005F2D7 /* Build configuration list for PBXNativeTarget "heli_tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072C67C51978E23D0005F2D7 /* Debug */,
+				072C67C61978E23D0005F2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		072C67C71978E23D0005F2D7 /* Build configuration list for PBXNativeTarget "heli_tutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072C67C81978E23D0005F2D7 /* Debug */,
+				072C67C91978E23D0005F2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		072C67AC1978E23D0005F2D7 /* heli_tutorial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				072C67AD1978E23D0005F2D7 /* heli_tutorial.xcdatamodel */,
+			);
+			currentVersion = 072C67AD1978E23D0005F2D7 /* heli_tutorial.xcdatamodel */;
+			path = heli_tutorial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 072C679D1978E23D0005F2D7 /* Project object */;
+}
