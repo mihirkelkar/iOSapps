@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>heli_tutorial.xcscheme</key>
+		<key>StopWatch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>072C67A41978E23D0005F2D7</key>
+		<key>07FA57EC19CA1285003865A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>072C67B91978E23D0005F2D7</key>
+		<key>07FA580119CA1285003865A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -23,6 +23,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     //Telss our table how many rows it needs to render
     func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int
     {
+        println(TaskMgr.taskList.count)
         return TaskMgr.taskList.count
     }
     //We now crate a cell and return it to our view. Everytime the view is created, this function is

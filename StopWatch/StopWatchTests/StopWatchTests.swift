@@ -1,14 +1,15 @@
 //
-//  heli_tutorialTests.swift
-//  heli_tutorialTests
+//  StopWatchTests.swift
+//  StopWatchTests
 //
-//  Created by Mihir Kelkar on 7/17/14.
+//  Created by Mihir Kelkar on 9/17/14.
 //  Copyright (c) 2014 Mihir Kelkar. All rights reserved.
 //
 
+import UIKit
 import XCTest
 
-class heli_tutorialTests: XCTestCase {
+class StopWatchTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

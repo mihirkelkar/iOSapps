@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "072C67A41978E23D0005F2D7"
-               BuildableName = "heli_tutorial.app"
-               BlueprintName = "heli_tutorial"
-               ReferencedContainer = "container:heli_tutorial.xcodeproj">
+               BlueprintIdentifier = "07FA57EC19CA1285003865A7"
+               BuildableName = "StopWatch.app"
+               BlueprintName = "StopWatch"
+               ReferencedContainer = "container:StopWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "072C67B91978E23D0005F2D7"
-               BuildableName = "heli_tutorialTests.xctest"
-               BlueprintName = "heli_tutorialTests"
-               ReferencedContainer = "container:heli_tutorial.xcodeproj">
+               BlueprintIdentifier = "07FA580119CA1285003865A7"
+               BuildableName = "StopWatchTests.xctest"
+               BlueprintName = "StopWatchTests"
+               ReferencedContainer = "container:StopWatch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "072C67A41978E23D0005F2D7"
-            BuildableName = "heli_tutorial.app"
-            BlueprintName = "heli_tutorial"
-            ReferencedContainer = "container:heli_tutorial.xcodeproj">
+            BlueprintIdentifier = "07FA57EC19CA1285003865A7"
+            BuildableName = "StopWatch.app"
+            BlueprintName = "StopWatch"
+            ReferencedContainer = "container:StopWatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "072C67A41978E23D0005F2D7"
-            BuildableName = "heli_tutorial.app"
-            BlueprintName = "heli_tutorial"
-            ReferencedContainer = "container:heli_tutorial.xcodeproj">
+            BlueprintIdentifier = "07FA57EC19CA1285003865A7"
+            BuildableName = "StopWatch.app"
+            BlueprintName = "StopWatch"
+            ReferencedContainer = "container:StopWatch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "072C67A41978E23D0005F2D7"
-            BuildableName = "heli_tutorial.app"
-            BlueprintName = "heli_tutorial"
-            ReferencedContainer = "container:heli_tutorial.xcodeproj">
+            BlueprintIdentifier = "07FA57EC19CA1285003865A7"
+            BuildableName = "StopWatch.app"
+            BlueprintName = "StopWatch"
+            ReferencedContainer = "container:StopWatch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
